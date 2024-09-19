@@ -1,0 +1,18 @@
+﻿<Window x:Class="VeelGebruikteKlassen_3___Talstelsel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VeelGebruikteKlassen_3___Talstelsel"
+        mc:Ignorable="d"
+        Title="Het hexadecimale talstelsel" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="hexadecimalLabel" Content="Hexadecimale waarde" HorizontalAlignment="Left" Margin="76,64,0,0" VerticalAlignment="Top" FontWeight="Bold" RenderTransformOrigin="0.362,0.492"/>
+        <Label x:Name="decimalLabel" Content="Decimale waarde" HorizontalAlignment="Left" Margin="250,64,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="hexadecimalTextBox" HorizontalAlignment="Left" Margin="76,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="decimalTextBox" HorizontalAlignment="Left" Margin="250,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
+        <Button x:Name="convertButton" Content="Zet om" HorizontalAlignment="Left" Margin="76,116,0,0" VerticalAlignment="Top" Click="convertButton_Click"/>
+        <Button x:Name="clearButton" Content="Opnieuw" HorizontalAlignment="Left" Margin="158,116,0,0" VerticalAlignment="Top" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Sluiten" HorizontalAlignment="Left" Margin="250,116,0,0" VerticalAlignment="Top" Click="closeButton_Click"/>
+    </Grid>
+</Window>
